@@ -1,15 +1,25 @@
 import java.util.Scanner;
-
+/**
+ * @version v1.0
+ * @author emozo
+ * @see <p>Para más información ver <a href="www.google.com">Google</a></p>
+ */
 
 
 public class FuncionSuma {
-
-	
+	/**
+	 * Variable para guardar el primer sumando
+	 */
 	
 	private static int primerSumando;
-	
+	/**
+	 * Variable para guardar el segundo sumando
+	 */
 	private static int segundoSumando; 
-	
+	/**
+	 * Función principal del programa
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		
@@ -26,10 +36,16 @@ public class FuncionSuma {
 
 	}
 	
+	/**
+	 * Función que realiza la suma
+	 * @param sumando1
+	 * @param sumando2
+	 * @return
+	 */
 	
 	
 	private static int suma (int sumando1, int sumando2) {
-		return sumando1+sumando2;
+		return sumando1-sumando2;
 	}
 
 }
